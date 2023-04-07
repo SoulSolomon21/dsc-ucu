@@ -1,0 +1,39 @@
+.hero-container {
+    background: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+    object-fit: contain;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Add this to center the text */
+  }
+  
+  .hero-container h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #fff; /* Add this to ensure the text is visible on top of the background image */
+  }
+  
+  .hero-container p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #fff; /* Add this to ensure the text is visible on top of the background image */
+  }
+  
+  .btn {
+    background-color: #fff;
+    color: #222;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
