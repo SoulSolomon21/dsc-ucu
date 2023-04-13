@@ -5,9 +5,12 @@ function NewsSection() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    fetch('https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=7f9185286d7340fca3ba0cf5632db706')
+    const loadNews = async () => {
+      await fetch('https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=7f9185286d7340fca3ba0cf5632db706')
       .then(response => response.json())
       .then(data =>setArticles(data.articles));
+    }
+    loadNews()
   }, []);
 
   return (
