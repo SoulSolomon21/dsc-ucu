@@ -12,7 +12,7 @@ function NewsSection() {
 
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-4">Latest News</h2>
+      <h2 className="text-center mb-4">Tech News</h2>
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         {articles.map(article => (
           <div className="col" key={article.url}>

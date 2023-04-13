@@ -8,7 +8,7 @@ function Welcome() {
       <div className="hero-container">
         <h1>Welcome to GDC Club</h1>
         <p>We are a community of student developers who love to create and share our passion for Coding.</p>
-        <button className="btn" onClick={() => navigate('/signup')}>Join Now</button>
+        <button style={{backgroundColor:'whitesmoke'}} className="btn" onClick={() => navigate('/signup')}>Join Now</button>
       </div>
     );
   }

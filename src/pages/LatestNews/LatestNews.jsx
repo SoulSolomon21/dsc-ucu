@@ -55,7 +55,7 @@ function LatestNews() {
 
     return (
         <div className="latest-news">
-            <h2>Latest News</h2>
+            <h2 style={{textAlign:'center'}}>Latest News</h2>
             <div className="row">
                 <div className="col-lg-12 mb-3 d-flex flex-row overflow-auto">
                     {articles.map((article) => (

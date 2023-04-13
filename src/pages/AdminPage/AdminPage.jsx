@@ -79,10 +79,7 @@ const AdminPage = () => {
 
     return (
         <div className="admin-page">
-            <h1>Club Members</h1>
-            <Button variant="primary" onClick={() => setShowModal(true)}>
-                Add Member
-            </Button>
+            <h1 style={{textAlign:'center'}}>Club Members</h1>
             <div className="row">
                 {members.map((member) => (
                     <div key={member.id} className="col-lg-4 mb-3">
